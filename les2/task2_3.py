@@ -20,3 +20,4 @@ while True:
 for key in month.keys():
     if user_month in month.get(key):
         print(key)
+        break
