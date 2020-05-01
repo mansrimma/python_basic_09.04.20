@@ -10,7 +10,6 @@
 """
 
 class Worker:
-
     def __init__(self, name, surname, position, wage, bonus):
         self.name = name
         self.surname = surname
@@ -19,7 +18,6 @@ class Worker:
 
 
 class Position(Worker):
-
     def __init__(self, name, surname, position, wage, bonus):
         super().__init__(name, surname, position, wage, bonus)
 

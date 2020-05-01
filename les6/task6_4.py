@@ -54,12 +54,10 @@ class WorkCar(Car):
 
 
 class PoliceCar(Car):
-
-    def __init__(self, color, name, is_sherif):
-        self.is_sherif = is_sherif
+    def __init__(self, color, name):
         super().__init__(color, name, float('inf'), True)
 
-temp = PoliceCar('red', 'Merthy', False)
+temp = PoliceCar('red', 'Merthy')
 tc_1 = TownCar('white', 'Max', 55, 'left')
 
 print(temp.color)
